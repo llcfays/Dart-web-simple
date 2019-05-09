@@ -1,8 +1,9 @@
+
 # Dart 创建 web 项目
 
 [Dart 官方教程](https://dart.dev/tutorials/web/get-started#3-get-cli-tools-or-an-ide-or-both)
 
-**教程使用 Windows**
+**本教程使用 Windows**
 
 ## 下载 Dart sdk
 
@@ -12,7 +13,7 @@
 
 ## 配置 Dart sdk 环境变量
 
-拷贝 Dart 安装目录 "D:\Dart\dart-sdk\bin",添加到系 Windows 系统环境变量 Path 中。
+拷贝 Dart 安装目录如： "D:\Dart\dart-sdk\bin",添加到系 Windows 系统环境变量 Path 中。
 
 **一般来说默认会自动添加的。**
 
@@ -28,7 +29,16 @@
  **安装的时候可能会提示你配置以上两个工具的环境变量，注意看警告就可以了。**
 
  ## 创建项目
-在命令提示符窗口运行以下命令
+
+### 使用 vsCode 创建项目
+- 打开 命令面板
+- Flutter: new web project
+- 输入项目名称即可
+
+
+**前提是安装好以上环境**
+
+### 使用命令提示符创建项目
 
 ~~~
 mkdir quickstart
@@ -37,11 +47,13 @@ stagehand web-simple
 pub get
 ~~~
 
-**如果找不到 stagehand 命令，可使用完整路径，完整路径在c:\users\user\AppData\Roaming\Pub\Cache\bin 文件夹中。**
+**如果找不到 stagehand 命令，可使用完整路径，完整路径在c:\users\user name\AppData\Roaming\Pub\Cache\bin 文件夹中。**
 
 ## 运行
 ~~~
 webdev serve
 ~~~
 
-**如果找不到 webdev 命令，可使用完整路径，完整路径在 c:\users\user\AppData\Roaming\Pub\Cache\bin 文件夹中。**
+**如果找不到 webdev 命令，可使用完整路径，完整路径在 c:\users\user name\AppData\Roaming\Pub\Cache\bin 文件夹中。**
+
+
